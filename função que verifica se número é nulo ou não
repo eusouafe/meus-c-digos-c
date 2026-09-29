@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int verificar (int c)
+{
+    
+    if(c==0){
+        printf(" eh nulo");
+    }else{
+        printf(" não eh nulo");
+    }
+}
+
+int main(void)
+{
+    int a;
+    int b;
+
+    printf("digite o numero:  ");
+    scanf("%d",&a);
+
+    b=verificar(a);
+
+}
