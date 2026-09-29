@@ -1,4 +1,4 @@
-V#include<stdio.h>
+#include<stdio.h>
 
 float converte (float c)
 {
